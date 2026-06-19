@@ -193,12 +193,40 @@
 
 ## 🎯 **CORE COMPETENCIES**
 
-<div align="center">
+## 🚀 Expertise
 
-┌─────────────────────────────────────────────────────────┐ │ AI/ML & GENERATIVE AI EXPERTISE │ ├─────────────────────────────────────────────────────────┤ │ │ │ 🤖 Agentic AI → Multi-Agent Systems │ │ 🧠 LLM Architecture → Prompt Engineering │ │ 🔍 RAG Systems → Vector Databases │ │ 📊 Machine Learning → Deep Learning │ │ 🔗 Knowledge Graphs → Semantic Search │ │ 🎯 Fine-tuning → Model Optimization │ │ 📈 Feature Engineering → Data Pipelines │ │ │ ├─────────────────────────────────────────────────────────┤ │ FULL-STACK DEVELOPMENT │ ├─────────────────────────────────────────────────────────┤ │ │ │ 🐍 Backend → FastAPI, Django, Flask │ │ 💻 Frontend → React, Next.js, Vue │ │ 🗄️ Databases → SQL, NoSQL, Vector DBs │ │ 🔐 Authentication → OAuth, JWT, Security │ │ 📡 APIs → REST, GraphQL, Real-time │ │ ☁️ Cloud Deployment → AWS, GCP, Azure, Docker │ │ │ └─────────────────────────────────────────────────────────┘
+| 🤖 AI / ML & Generative AI | 💻 Full-Stack Development    |
+| -------------------------- | ---------------------------- |
+| 🧠 Agentic AI              | 🐍 FastAPI                   |
+| 🤝 Multi-Agent Systems     | 🎯 Django                    |
+| 💬 LLM Engineering         | ⚡ Flask                      |
+| 🔍 RAG Systems             | ⚛️ React                     |
+| ✨ Prompt Engineering       | ▲ Next.js                    |
+| 🗄️ Vector Databases       | 🔄 REST APIs                 |
+| 🕸️ Knowledge Graphs       | 📡 GraphQL                   |
+| 🔎 Semantic Search         | 🗃️ PostgreSQL               |
+| 🎯 Fine-Tuning             | 🍃 MongoDB                   |
+| 📈 Machine Learning        | 🔐 Authentication & Security |
+| 🧠 Deep Learning           | 🐳 Docker                    |
+| ⚡ Model Optimization       | ☁️ AWS • GCP • Azure         |
 
+---
 
-</div>
+## 🎯 What I Build
+
+| AI Solutions            | Engineering Solutions         |
+| ----------------------- | ----------------------------- |
+| 🤖 AI Agents            | 🌐 Full-Stack Applications    |
+| 🔗 Multi-Agent Systems  | ⚙️ Backend Architectures      |
+| 🔍 RAG Applications     | 📡 APIs & Integrations        |
+| 🧠 LLM-Powered Products | ☁️ Cloud-Native Deployments   |
+| 📚 Knowledge Systems    | 🚀 Production-Ready Platforms |
+| 💬 Conversational AI    | 🔒 Secure & Scalable Systems  |
+
+---
+
+> **Building AI systems that can reason, plan, and act — while engineering scalable software that delivers real-world impact.**
+
 
 ---
 
