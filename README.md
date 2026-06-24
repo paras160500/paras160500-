@@ -5,7 +5,7 @@
 ![Profile Banner](https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,100:4ECDC4&height=300&section=header&text=BUILDING%20AI%20SYSTEMS&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=40)
 
 <p>
-  <a href="https://linkedin.com/in/paras160500" target="_blank">
+  <a href="https://www.linkedin.com/in/paras-patel-595600155" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" />
   </a>
   <a href="https://twitter.com/paras160500" target="_blank">
