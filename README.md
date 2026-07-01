@@ -5,27 +5,23 @@
 <br/>
 
 <div align="center">
-<a href="mailto:paras160500@gmail.com">paras160500@gmail.com</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/paras-patel-595600155">LinkedIn</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://github.com/paras160500">github.com/paras160500</a>
+
+<a href="mailto:paras160500@gmail.com">
+<img src="https://img.shields.io/badge/Email-paras160500%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/paras-patel-595600155">
+<img src="https://img.shields.io/badge/LinkedIn-Paras_Patel-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/paras160500">
+<img src="https://img.shields.io/badge/GitHub-paras160500-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
 </div>
 
 <br/>
 
-```
-┌─ ABOUT ────────────────────────────────────────────────────────────────────┐
-│                                                                            │
-│  I design and ship AI systems that go beyond text generation —             │
-│  systems that retrieve from real data, reason over it, and act.            │
-│                                                                            │
-│  Multi-agent orchestration. Hybrid RAG. Production infrastructure.        │
-│  If a project is here, it has a working architecture — not just           │
-│  a notebook that ran once on my machine.                                   │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
-```
 
 <br/>
 
@@ -74,17 +70,10 @@
 
 <br/>
 
-```
-┌─ ALSO SHIPPED ──────────────────────────────────────────────────────────────┐
-│                                                                              │
-│  mindspace_AgenticAI          LangChain tool-calling agent · multi-LLM      │
-│                               routing (OpenAI / Groq / Ollama) · FastAPI    │
-│                               async backend · Streamlit frontend             │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
-
-→ **[mindspace\_AgenticAI](https://github.com/paras160500/mindspace_AgenticAI)**
+> [!TIP]
+> **mindspace_AgenticAI**
+>
+> LangChain tool-calling agent with multi-LLM routing (OpenAI, Groq, Ollama), powered by an async FastAPI backend and a Streamlit frontend.
 
 <br/>
 
