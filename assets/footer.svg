@@ -1,22 +1,21 @@
-<svg width="900" height="130" viewBox="0 0 900 130" xmlns="http://www.w3.org/2000/svg">
+<svg width="860" height="110" viewBox="0 0 860 110" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&amp;display=swap');
-      text { font-family: 'JetBrains Mono', monospace; }
-    </style>
-    <linearGradient id="bgf" x1="0" y1="0" x2="900" y2="130" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0a1018"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#080e18"/>
       <stop offset="1" stop-color="#05080d"/>
     </linearGradient>
+    <clipPath id="fc"><rect width="860" height="110" rx="12"/></clipPath>
   </defs>
-  <rect width="900" height="130" fill="url(#bgf)" rx="14"/>
-  <rect x="1" y="1" width="898" height="128" rx="14" fill="none" stroke="#1b2b35" stroke-width="1.5"/>
-  <text x="40" y="55" font-size="14" fill="#3da9fc">paras@systems</text>
-  <text x="178" y="55" font-size="14" fill="#5b7282">:~$</text>
-  <text x="222" y="55" font-size="14" fill="#e6edf3">echo "thanks for scrolling this far"</text>
-  <text x="40" y="84" font-size="14" fill="#00ffc8">&gt; thanks for scrolling this far</text>
-  <rect x="380" y="71" width="11" height="20" fill="#00ffc8">
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-  </rect>
-  <text x="40" y="112" font-size="11.5" fill="#3a4d59">process exited 0 · last build: always shipping</text>
+  <g clip-path="url(#fc)">
+    <rect width="860" height="110" fill="url(#bg)"/>
+    <text x="30" y="44" font-size="13.5" fill="#3da9fc" font-family="'Courier New', monospace">paras@systems</text>
+    <text x="158" y="44" font-size="13.5" fill="#5b7282" font-family="'Courier New', monospace">:~$</text>
+    <text x="192" y="44" font-size="13.5" fill="#e6edf3" font-family="'Courier New', monospace">echo "open to interesting problems"</text>
+    <text x="30" y="70" font-size="13.5" fill="#00ffc8" font-family="'Courier New', monospace">&gt; open to interesting problems</text>
+    <rect x="400" y="54" width="10" height="19" fill="#00ffc8">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+    <text x="30" y="97" font-size="11" fill="#2a3d4d" font-family="'Courier New', monospace">process exited 0 · paras160500@gmail.com · linkedin.com/in/paras-patel-595600155</text>
+  </g>
+  <rect x="0.5" y="0.5" width="859" height="109" rx="12" fill="none" stroke="#1b2b35" stroke-width="1"/>
 </svg>

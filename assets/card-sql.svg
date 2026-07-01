@@ -1,0 +1,29 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="400" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a1018"/><stop offset="1" stop-color="#0d1520"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="200" rx="10" fill="url(#bg)"/>
+  <rect width="400" height="200" rx="10" fill="none" stroke="#1b2b35" stroke-width="1"/>
+  <rect width="5" height="200" rx="2" fill="#febc2e"/>
+  <rect x="12" y="12" rx="4" width="88" height="18" fill="#febc2e22"/>
+  <text x="20" y="25" font-size="9.5" font-weight="700" fill="#febc2e" font-family="'Courier New', monospace" letter-spacing="0.8">DATABASE</text>
+  <circle cx="382" cy="21" r="4" fill="#febc2e"><animate attributeName="opacity" values="1;0.3;1" dur="2.8s" repeatCount="indefinite"/></circle>
+  <text x="12" y="58" font-size="15.5" font-weight="700" fill="#e6edf3" font-family="'Helvetica Neue', Arial, sans-serif">SQL Library Management · Adv.</text>
+  <text x="12" y="80" font-size="12" fill="#8fa3b3" font-family="'Helvetica Neue', Arial, sans-serif">PostgreSQL: 18+ complex queries, 2 stored procedures,</text>
+  <text x="12" y="96" font-size="12" fill="#8fa3b3" font-family="'Helvetica Neue', Arial, sans-serif">CTAS, overdue tracking, branch revenue analytics.</text>
+  <line x1="12" y1="112" x2="388" y2="112" stroke="#1b2b35" stroke-width="1"/>
+  <text x="12" y="131" font-size="10.5" fill="#febc2e" font-family="'Courier New', monospace">PostgreSQL</text>
+  <text x="88" y="131" font-size="10.5" fill="#3a4d59" font-family="'Courier New', monospace">·</text>
+  <text x="98" y="131" font-size="10.5" fill="#5b7282" font-family="'Courier New', monospace">PL/pgSQL</text>
+  <text x="164" y="131" font-size="10.5" fill="#3a4d59" font-family="'Courier New', monospace">·</text>
+  <text x="174" y="131" font-size="10.5" fill="#5b7282" font-family="'Courier New', monospace">CTAS</text>
+  <text x="210" y="131" font-size="10.5" fill="#3a4d59" font-family="'Courier New', monospace">·</text>
+  <text x="220" y="131" font-size="10.5" fill="#5b7282" font-family="'Courier New', monospace">Window Fns</text>
+  <text x="314" y="131" font-size="10.5" fill="#3a4d59" font-family="'Courier New', monospace">·</text>
+  <text x="324" y="131" font-size="10.5" fill="#5b7282" font-family="'Courier New', monospace">JOINs</text>
+  <rect x="12" y="148" width="376" height="36" rx="6" fill="#febc2e0a"/>
+  <text x="22" y="161" font-size="10.5" fill="#5b7282" font-family="'Courier New', monospace">6 tables · auto issue/return stored procs · 3NF normalization</text>
+  <text x="22" y="177" font-size="10.5" fill="#5b7282" font-family="'Courier New', monospace">overdue tracking · revenue by category · branch performance</text>
+</svg>

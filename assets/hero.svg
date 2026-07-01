@@ -1,69 +1,81 @@
-<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+<svg width="860" height="310" viewBox="0 0 860 310" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&amp;display=swap');
-      text { font-family: 'JetBrains Mono', monospace; }
-    </style>
-    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="320" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="860" y2="310" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#05080d"/>
-      <stop offset="0.55" stop-color="#0a1018"/>
-      <stop offset="1" stop-color="#091a1c"/>
+      <stop offset="1" stop-color="#080e18"/>
     </linearGradient>
-    <radialGradient id="glow1" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#00ffc8" stop-opacity="0.18"/>
+    <linearGradient id="bigGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00ffc8"/>
+      <stop offset="0.5" stop-color="#3da9fc"/>
+      <stop offset="1" stop-color="#7c5cff"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00ffc8" stop-opacity="0.15"/>
       <stop offset="1" stop-color="#00ffc8" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="accentText" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00ffc8"/>
-      <stop offset="1" stop-color="#3da9fc"/>
-    </linearGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#16242b" stroke-width="1"/>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3da9fc" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#3da9fc" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1a2535" opacity="0.6"/>
     </pattern>
-    <clipPath id="winClip"><rect x="0" y="0" width="900" height="320" rx="14"/></clipPath>
+    <clipPath id="reveal">
+      <rect x="0" y="128" height="70" width="0">
+        <animate attributeName="width" from="0" to="860" begin="0.3s" dur="2.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+      </rect>
+    </clipPath>
+    <clipPath id="reveal2">
+      <rect x="0" y="204" height="40" width="0">
+        <animate attributeName="width" from="0" to="860" begin="1.8s" dur="1.4s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+      </rect>
+    </clipPath>
+    <clipPath id="winClip"><rect width="860" height="310" rx="12"/></clipPath>
   </defs>
 
   <g clip-path="url(#winClip)">
-    <rect width="900" height="320" fill="url(#bg)"/>
-    <rect width="900" height="320" fill="url(#grid)" opacity="0.5"/>
-    <circle cx="760" cy="60" r="160" fill="url(#glow1)"/>
-    <circle cx="120" cy="280" r="140" fill="url(#glow1)"/>
+    <rect width="860" height="310" fill="url(#bg)"/>
+    <rect width="860" height="310" fill="url(#dots)"/>
+    <ellipse cx="720" cy="60" rx="200" ry="160" fill="url(#glowA)"/>
+    <ellipse cx="100" cy="270" rx="180" ry="140" fill="url(#glowB)"/>
 
-    <!-- title bar -->
-    <rect x="0" y="0" width="900" height="38" fill="#0d1620"/>
-    <line x1="0" y1="38" x2="900" y2="38" stroke="#1b2b35" stroke-width="1"/>
-    <circle cx="24" cy="19" r="6" fill="#ff5f57"/>
-    <circle cx="46" cy="19" r="6" fill="#febc2e"/>
-    <circle cx="68" cy="19" r="6" fill="#28c840"/>
-    <text x="450" y="24" fill="#5b7282" font-size="13" text-anchor="middle" letter-spacing="0.5">paras@systems — zsh — 90×24</text>
+    <!-- window bar -->
+    <rect width="860" height="36" fill="#0b1520"/>
+    <line x1="0" y1="36" x2="860" y2="36" stroke="#1b2b35" stroke-width="1"/>
+    <circle cx="20" cy="18" r="5.5" fill="#ff5f57"/>
+    <circle cx="40" cy="18" r="5.5" fill="#febc2e"/>
+    <circle cx="60" cy="18" r="5.5" fill="#28c840"/>
+    <text x="430" y="23" text-anchor="middle" font-size="12" fill="#3a4d59" font-family="'Courier New', monospace" letter-spacing="1">paras@systems — ai/ml engineer — bash</text>
 
-    <!-- body -->
-    <text x="40" y="92" font-size="15" fill="#3da9fc">paras@systems</text>
-    <text x="178" y="92" font-size="15" fill="#5b7282">:</text>
-    <text x="186" y="92" font-size="15" fill="#00ffc8">~</text>
-    <text x="202" y="92" font-size="15" fill="#e6edf3">$ whoami</text>
+    <!-- prompt lines -->
+    <text x="30" y="74" font-size="13" fill="#00ffc8" font-family="'Courier New', monospace">paras@systems</text>
+    <text x="155" y="74" font-size="13" fill="#5b7282" font-family="'Courier New', monospace">:~$</text>
+    <text x="185" y="74" font-size="13" fill="#cfe3df" font-family="'Courier New', monospace">identify --full</text>
+    <text x="30" y="96" font-size="13" fill="#5b7282" font-family="'Courier New', monospace">→ Paras Patel · building autonomous AI systems since 2022</text>
 
-    <text x="40" y="122" font-size="15" fill="#5b7282">&gt; Paras Patel · building autonomous AI since 2022</text>
-
-    <!-- big typed line, revealed via clip animation -->
-    <g>
-      <clipPath id="typeClip">
-        <rect x="36" y="150" height="120" width="0">
-          <animate attributeName="width" from="0" to="830" begin="0.4s" dur="2.6s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
-        </rect>
-      </clipPath>
-      <g clip-path="url(#typeClip)">
-        <text x="40" y="178" font-size="30" font-weight="800" fill="url(#accentText)">Architecting AI that can</text>
-        <text x="40" y="218" font-size="30" font-weight="800" fill="#f5f9ff">REASON · RETRIEVE · ACT</text>
-        <text x="40" y="252" font-size="17" fill="#8fa3b3">— not another chatbot wrapper. Real agentic systems, shipped to prod.</text>
-      </g>
-      <rect x="869" y="156" width="13" height="26" fill="#00ffc8">
-        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.39;0.4;0.7;0.71;1" dur="3.4s" repeatCount="indefinite"/>
-        <animateMotion path="M0,0" begin="0.4s"/>
-      </rect>
+    <!-- BIG TAGLINE -->
+    <g clip-path="url(#reveal)">
+      <text x="30" y="175" font-size="54" font-weight="800" fill="url(#bigGrad)" font-family="'Helvetica Neue', Arial, sans-serif" letter-spacing="-1">REASON · RETRIEVE · ACT</text>
     </g>
 
-    <text x="40" y="296" font-size="13" fill="#3a4d59">drwxr-xr-x  agentic-ai/  rag-pipelines/  llm-infra/  production-systems/</text>
+    <!-- subline -->
+    <g clip-path="url(#reveal2)">
+      <text x="32" y="226" font-size="15.5" fill="#8fa3b3" font-family="'Helvetica Neue', Arial, sans-serif">Not another chatbot wrapper — real multi-agent systems, production-deployed.</text>
+    </g>
+
+    <!-- blinking cursor -->
+    <rect x="342" y="57" width="10" height="20" fill="#00ffc8">
+      <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.4;0.41;0.9;0.91;1" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- bottom filesystem line -->
+    <text x="30" y="290" font-size="11.5" fill="#2a3d4d" font-family="'Courier New', monospace">drwxr-xr-x  agentic-ai/  multimodal-rag/  mcp-tools/  oracle-26ai/  prod-systems/</text>
+
+    <!-- top right indicator -->
+    <circle cx="836" cy="18" r="4" fill="#00ffc8">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="816" y="22" font-size="9.5" fill="#00ffc8" font-family="'Courier New', monospace">LIVE</text>
   </g>
-  <rect x="1" y="1" width="898" height="318" rx="14" fill="none" stroke="#1b2b35" stroke-width="1.5"/>
+  <rect x="0.5" y="0.5" width="859" height="309" rx="12" fill="none" stroke="#1b2b35" stroke-width="1"/>
 </svg>

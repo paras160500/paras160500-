@@ -1,0 +1,29 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="400" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a1018"/><stop offset="1" stop-color="#0d1520"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="200" rx="10" fill="url(#bg)"/>
+  <rect width="400" height="200" rx="10" fill="none" stroke="#1b2b35" stroke-width="1"/>
+  <rect width="5" height="200" rx="2" fill="#00ffc8"/>
+  <rect x="12" y="12" rx="4" width="96" height="18" fill="#00ffc822"/>
+  <text x="20" y="25" font-size="9.5" font-weight="700" fill="#00ffc8" font-family="'Courier New', monospace" letter-spacing="0.8">MULTI-AGENT</text>
+  <circle cx="382" cy="21" r="4" fill="#00ffc8"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/></circle>
+  <text x="12" y="60" font-size="16" font-weight="700" fill="#e6edf3" font-family="'Helvetica Neue', Arial, sans-serif">Frontier AI Product Researcher</text>
+  <text x="12" y="82" font-size="12" fill="#8fa3b3" font-family="'Helvetica Neue', Arial, sans-serif">Autonomous research: CrewAI agents for ArXiv search,</text>
+  <text x="12" y="98" font-size="12" fill="#8fa3b3" font-family="'Helvetica Neue', Arial, sans-serif">patent discovery + iterative RAG product analysis.</text>
+  <line x1="12" y1="114" x2="388" y2="114" stroke="#1b2b35" stroke-width="1"/>
+  <text x="12" y="133" font-size="10.5" fill="#00ffc8" font-family="'Courier New', monospace">CrewAI</text>
+  <text x="60" y="133" font-size="10.5" fill="#3a4d59" font-family="'Courier New', monospace">·</text>
+  <text x="70" y="133" font-size="10.5" fill="#5b7282" font-family="'Courier New', monospace">ArXiv API</text>
+  <text x="140" y="133" font-size="10.5" fill="#3a4d59" font-family="'Courier New', monospace">·</text>
+  <text x="150" y="133" font-size="10.5" fill="#5b7282" font-family="'Courier New', monospace">Patent Search</text>
+  <text x="252" y="133" font-size="10.5" fill="#3a4d59" font-family="'Courier New', monospace">·</text>
+  <text x="262" y="133" font-size="10.5" fill="#5b7282" font-family="'Courier New', monospace">Serper</text>
+  <text x="314" y="133" font-size="10.5" fill="#3a4d59" font-family="'Courier New', monospace">·</text>
+  <text x="324" y="133" font-size="10.5" fill="#5b7282" font-family="'Courier New', monospace">Streamlit</text>
+  <rect x="12" y="150" width="376" height="36" rx="6" fill="#00ffc80a"/>
+  <text x="22" y="163" font-size="10.5" fill="#5b7282" font-family="'Courier New', monospace">4 agent modules: crew_ai · iterative_search · research_fetch · patents</text>
+  <text x="22" y="179" font-size="10.5" fill="#5b7282" font-family="'Courier New', monospace">Docker compose · Python 3.12 · Streamlit UI · fully autonomous loop</text>
+</svg>
